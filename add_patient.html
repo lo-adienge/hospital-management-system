@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Add Patient</title>
+</head>
+<body>
+    <h1>Add New Patient</h1>
+    <form action="add_patient.php" method="post">
+        First Name: <input type="text" name="first_name"><br>
+        Last Name: <input type="text" name="last_name"><br>
+        Date of Birth: <input type="date" name="dob"><br>
+        Gender: <input type="radio" name="gender" value="Male"> Male
+                <input type="radio" name="gender" value="Female"> Female
+                <input type="radio" name="gender" value="Other"> Other<br>
+        Phone: <input type="text" name="phone"><br>
+        Email: <input type="email" name="email"><br>
+        Address: <textarea name="address"></textarea><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
